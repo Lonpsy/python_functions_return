@@ -6,6 +6,7 @@ def farenheit_conversion(celcius_temperature):
 
 
 def message():
+    '''displays the temperature message of the specified city'''
   farenheit = farenheit_conversion(temperature)
   message = f'It is currently {temperature}ºC ({farenheit}ªF) in {city}.'
   print(message)
